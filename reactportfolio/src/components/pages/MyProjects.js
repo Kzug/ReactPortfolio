@@ -1,9 +1,21 @@
 import React from "react";
+//importing css file as a dependency
+import "../../styles/MyProjects.css";
+import comclo from "../../assets/comclo.png";
+import bitcoin from "../../assets/bitcoin_screenshot.png";
+import weatherapp from "../../assets/weatherapp2.png";
 
 export default function MyProjects() {
   return (
     <div>
       <h1>My Projects</h1>
+      <img
+        src={comclo}
+        className="project-img"
+        alt="community closet project"
+      />
+      <img src={bitcoin} className="project-img" alt="bitcoin project" />
+      <img src={weatherapp} className="project-img" alt="weatherapp project" />
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu

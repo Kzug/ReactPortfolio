@@ -15,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             currentPage === "MyProjects" ? "nav-link active" : "nav-link"
           }
         >
-          MyProjects
+          Projects
         </a>
       </li>
       <li className="nav-item">
