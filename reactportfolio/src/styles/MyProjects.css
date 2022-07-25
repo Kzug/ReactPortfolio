@@ -1,4 +1,144 @@
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: black;
+    text-align: center;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 36px;
+};
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-bluegreen {
+    color: #07A0C3;
+}
+
+section:nth-child(even){
+    background-color:#f8f8f8;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+
+/* Project */
 .project-img {
     width: 100%;
     transition: all 500ms ease;
+}
+
+.project:last-child{
+    margin-bottom:40px;
+}
+
+.project-img {
+    width: 100%;
+    transition: all 500ms ease;
+}
+
+.project-container {
+    display: flex;
+    box-shadow:0 20px 90px rgba(0,0,0,0.45);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1c1d25;
+    opacity: 0;
+    transition: opacity 450ms ease;
+    z-index: 2;
+}
+
+.project:hover .project-container:before {
+    opacity: 0.7;
+}
+
+.project:hover .project-img {
+    transform: scale(1.07);
+    filter: blur(5px);
+}
+
+
+.project:hover .project-description {
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.project-list {
+    padding-top: 25px;
+}
+.project-description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(100%);
+    max-width: 550px;
+    z-index: 3;
+    opacity: 0;
+    transition: transform 450ms, opacity 300ms;
+}
+
+.project-description-title,
+.project-description-sub-title,
+.project-description-para,
+.project-description-link {
+    text-align: left;
+    color: #fff;
+}
+
+.project-description-link {
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.githubproj {
+   color: white;
+   font-size: 16px;
+   margin-right:10px;
+}
+
+li {
+    list-style-type: none;
 }

@@ -1,0 +1,168 @@
+
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: black;
+    text-align: center;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 36px;
+};
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* .text-purple {
+    color: #07A0C3;
+} */
+
+.text-bluegreen {
+    color: #07A0C3;
+}
+
+section:nth-child(even){
+    background-color:#f8f8f8;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+
+/* ABOUT ME */
+#about-me {
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about-me-info-para {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.about-me-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+}
+
+.about-me-picture-mask {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.16);
+    margin-bottom: 28px;
+}
+
+.about-me-info-title {
+    margin-bottom: 16px;
+}
+
+.about-me-picture {
+    width: 100px;
+    transform: scale(2.1) translate(2px, 15px);
+  
+}
+
+.about-me-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 0 12px;
+}
+.personal-logo {
+    font-size: 24px;
+    color: #07a0c3;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+
+/* TECH - STACK */
+
+.language-img {
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms ease;
+}
+
+.language:hover .language-img {
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+}
+
+.language-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.language-list {
+    display: flex;
+    width: 100%;
+}
+
+.language {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.language-name {
+    position: absolute;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 400ms ease;
+    font-size: 20px;
+    opacity: 0;
+}
+
+.language:hover .language-name {
+    transform: scale(1);
+    opacity: 1;
+}
