@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.90b601da.css",
+    "main.js": "/my-app/static/js/main.ad4b802d.js",
+    "static/media/comclo.png": "/my-app/static/media/comclo.9d0d2ef1c72387b8cd30.png",
+    "static/media/PXL_20220614_180601661.PORTRAIT_2.jpg": "/my-app/static/media/PXL_20220614_180601661.PORTRAIT_2.bb95ec7124fae08517b2.jpg",
+    "static/media/bitcoin_screenshot.png": "/my-app/static/media/bitcoin_screenshot.409bde482d86cc4e2185.png",
+    "static/media/weatherapp2.png": "/my-app/static/media/weatherapp2.103e467cee779e59f5a3.png",
+    "static/media/ResumeKierstenZug.pdf": "/my-app/static/media/ResumeKierstenZug.851474ed3dbbe0d3f735.pdf",
+    "index.html": "/my-app/index.html",
+    "main.90b601da.css.map": "/my-app/static/css/main.90b601da.css.map",
+    "main.ad4b802d.js.map": "/my-app/static/js/main.ad4b802d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90b601da.css",
+    "static/js/main.ad4b802d.js"
+  ]
+}
