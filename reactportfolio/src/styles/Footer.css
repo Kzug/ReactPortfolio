@@ -293,7 +293,7 @@ nav {
 
 footer {
     background-color: #242424;
-    height: 150px;
+    height: 100px;
 }
 
 .footer-row {
@@ -311,6 +311,8 @@ margin-bottom:16px;
 
 .credit{
     color:grey;
+    display: flex;
+    justify-content: center;
 }
 
 .creditlink {
