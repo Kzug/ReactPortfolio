@@ -5,7 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../../assets/ResumeKierstenZug.pdf";
+import resume from "../../assets/ResumeKierstenZug.pdf";
 
 library.add(faLinkedin, faGithub, faEnvelope, faFilePdf);
 
@@ -49,12 +49,7 @@ export default function About() {
                 >
                   <FontAwesomeIcon icon="fa-solid fa-envelope" />
                 </a>
-                <a
-                  href="../../assets/ResumeKierstenZug.pdf"
-                  download
-                  target="_blank"
-                  className="about-me-link"
-                >
+                <a href={resume} target="_blank" className="about-me-link">
                   <FontAwesomeIcon icon="fa-solid fa-file-pdf" />
                 </a>
               </div>
